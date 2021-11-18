@@ -67,13 +67,20 @@ a {
   font-size: 26px;
   letter-spacing: 0.03em;
   line-height: 1.19;
-  display: inline-block;
+  display: block;
+  margin-right: 93px;
 }
 span {
   color: var(--accent-color);
 }
+header {
+  border: 1px solid #ececec;
+}
 .header-nav {
   align-items: center;
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .head-nav {
   font-weight: 500;
@@ -107,8 +114,10 @@ span {
   text-decoration: none;
   font-weight: 500;
   display: flex;
+  margin-left: auto;
 }
 .head-contacts-list {
+  display: block;
 }
 .head-contacts-link:hover,
 .head-contacts-link:focus {
@@ -288,6 +297,9 @@ footer {
 /*...............................*/
 /*...............................*/
 .page-nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
 }
 .page-nav-list {
   flex-direction: row;
@@ -301,9 +313,9 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  margin-right: 8px;
 }
 
 .page-nav-button:hover,
