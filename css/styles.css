@@ -75,13 +75,10 @@ span {
 }
 header {
   border-bottom: 1px solid #ececec;
-  height: 80px;
 }
 .header-nav {
   align-items: baseline;
   display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .head-nav {
   font-weight: 500;
@@ -89,6 +86,8 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: inherit;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .head-nav-list {
   display: inline-block;
@@ -134,12 +133,10 @@ header {
 }
 .hero {
   background-color: var(--footer-background-color);
-}
-.hero-content {
-  max-width: 700px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .hero-title {
   font-style: normal;
   font-weight: 900;
@@ -150,6 +147,9 @@ header {
   text-transform: uppercase;
   color: var(--thirdparty-text-color);
   max-width: 700px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-button {
@@ -168,7 +168,6 @@ header {
   text-align: center;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 30px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -179,8 +178,6 @@ header {
   display: flex;
 }
 .column-card {
-  max-width: 270px;
-  display: inline-flex;
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
@@ -207,7 +204,6 @@ header {
   display: flex;
 }
 .workspace-card {
-  display: inline-flex;
   margin-right: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
@@ -257,7 +253,7 @@ header {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-top: 10px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 .footer-logo {
@@ -306,11 +302,13 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: 94px;
+  margin-bottom: 50px;
 }
 .page-nav-list {
   flex-direction: row;
   display: inline-flex;
   justify-content: center;
+  margin-right: 8px;
 }
 .page-nav-button {
   background-color: var(--button-background-color);
@@ -321,7 +319,6 @@ footer {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
-  margin-right: 8px;
 }
 
 .page-nav-button:hover,
@@ -333,15 +330,13 @@ footer {
 }
 .card-list {
   margin-top: -30px;
-  margin-left: -30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .card {
-  display: inline-flex;
+  width: 370px;
   margin-top: 30px;
   margin-left: 30px;
-  flex-basis: calc((100% - 90px) / 3);
-}
-.card-link {
 }
 
 .card-rede {
